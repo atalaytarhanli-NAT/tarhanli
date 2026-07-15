@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tarhanlı Web Ajansı & CRM</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Ana menü">
+      <a class="brand" href="#hero">Tarhanlı<span>CRM</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">☰</button>
+      <div class="nav-links" id="nav-links">
+        <a href="#services">Hizmetler</a>
+        <a href="#crm">CRM</a>
+        <a href="#pricing">Paketler</a>
+        <a href="#contact" class="nav-cta">Teklif Al</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Web ajansı + satış odaklı CRM</p>
+        <h1>Dijital büyümenizi tek panelden yönetin.</h1>
+        <p class="hero-text">Markanız için modern web sitesi, performans pazarlama ve müşteri ilişkileri yönetimini bir araya getiren uçtan uca çözüm.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#contact">Ücretsiz analiz iste</a>
+          <a class="button secondary" href="#crm">CRM panelini incele</a>
+        </div>
+      </div>
+      <aside class="dashboard-card" aria-label="CRM özet paneli">
+        <div class="card-header">
+          <span>Satış Hunisi</span>
+          <strong>Bu Ay</strong>
+        </div>
+        <div class="metric-grid">
+          <div><strong>128</strong><span>Yeni lead</span></div>
+          <div><strong>42</strong><span>Teklif</span></div>
+          <div><strong>18</strong><span>Kazanılan</span></div>
+        </div>
+        <div class="pipeline">
+          <span style="--w: 78%">İletişim</span>
+          <span style="--w: 56%">Sunum</span>
+          <span style="--w: 34%">Sözleşme</span>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section" id="services">
+      <div class="section-heading">
+        <p class="eyebrow">Web ajansı hizmetleri</p>
+        <h2>Markanız için dönüşüm odaklı dijital ekip</h2>
+      </div>
+      <div class="cards three">
+        <article class="feature-card">
+          <h3>Kurumsal Web Tasarım</h3>
+          <p>Hızlı, mobil uyumlu ve SEO temelli web siteleri ile güven veren dijital vitrin oluşturun.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Performans Pazarlama</h3>
+          <p>Google, Meta ve LinkedIn kampanyalarınızı CRM verileriyle besleyerek reklam bütçenizi akıllı kullanın.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Otomasyon & Raporlama</h3>
+          <p>Form, teklif, görev ve satış raporlarını tek yerde toplayarak ekibinizin takip yükünü azaltın.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="crm-section" id="crm">
+      <div>
+        <p class="eyebrow">CRM uygulaması</p>
+        <h2>Lead yakalama, teklif takibi ve ekip görevleri aynı ekranda.</h2>
+        <ul class="check-list">
+          <li>Müşteri kartları ve görüşme geçmişi</li>
+          <li>Satış hunisi ve teklif durumları</li>
+          <li>Görev atama, hatırlatma ve aktivite takibi</li>
+          <li>Gerçek zamanlı gelir ve performans raporları</li>
+        </ul>
+      </div>
+      <div class="crm-preview">
+        <div class="preview-toolbar"><span></span><span></span><span></span></div>
+        <div class="lead-row"><strong>Ayşe Demir</strong><span>Web sitesi teklifi</span><em>Sıcak</em></div>
+        <div class="lead-row"><strong>Murat Kaya</strong><span>CRM demosu</span><em>Yeni</em></div>
+        <div class="lead-row"><strong>Elif Aksoy</strong><span>SEO danışmanlığı</span><em>Takip</em></div>
+      </div>
+    </section>
+
+    <section class="section" id="pricing">
+      <div class="section-heading">
+        <p class="eyebrow">Paketler</p>
+        <h2>İhtiyacınıza göre başlayın, büyüdükçe ölçekleyin.</h2>
+      </div>
+      <div class="cards pricing-cards">
+        <article class="price-card">
+          <h3>Başlangıç</h3>
+          <p>Web sitesi + temel CRM kurulumu</p>
+          <strong>₺24.900</strong>
+        </article>
+        <article class="price-card highlighted">
+          <h3>Büyüme</h3>
+          <p>Web, reklam yönetimi ve otomasyonlar</p>
+          <strong>₺49.900</strong>
+        </article>
+        <article class="price-card">
+          <h3>Kurumsal</h3>
+          <p>Özel entegrasyonlar ve gelişmiş raporlar</p>
+          <strong>Teklif al</strong>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div>
+        <p class="eyebrow">İletişim</p>
+        <h2>Projenizi birlikte planlayalım.</h2>
+        <p>Formu doldurun; web ajansı ve CRM ihtiyaçlarınız için size özel yol haritası hazırlayalım.</p>
+      </div>
+      <form class="contact-form">
+        <label>Ad Soyad<input type="text" name="name" placeholder="Adınız" required /></label>
+        <label>E-posta<input type="email" name="email" placeholder="ornek@firma.com" required /></label>
+        <label>İhtiyaç<textarea name="message" placeholder="Web sitesi, CRM, reklam yönetimi..." required></textarea></label>
+        <button class="button primary" type="submit">Teklif iste</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">© 2026 Tarhanlı Web Ajansı & CRM. Tüm hakları saklıdır.</footer>
+  <script src="script.js"></script>
+</body>
+</html>
